@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="website icon" type="png" href="images/brand/logo.jpg">
+    <title>Aurevex</title>
+</head>
+<body>
+    <header id="headerBlock">
+        <div class="mobileMenuWrp">
+            <h1 class="brandName">Aurevex</h1>
+            <div class="dropdown">
+                <button class="menuBtn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/icons/menu.svg" class="imgFluid" alt="menu">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a data-i18n="dropdownMenu.about" class="dropdown-item" href="#aboutBlock">About</a></li>
+                    <li><a data-i18n="dropdownMenu.features" class="dropdown-item" href="#featuresBlock">Features</a></li>
+                    <li><a data-i18n="dropdownMenu.services" class="dropdown-item" href="#servicesBlock">Services</a></li>
+                    <li><a data-i18n="dropdownMenu.cases" class="dropdown-item" href="#portfolioBlock">Cases</a></li>
+                    <li><a data-i18n="dropdownMenu.prices" class="dropdown-item" href="#pricesBlock">Prices</a></li>
+                    <li><a data-i18n="dropdownMenu.form" class="dropdown-item" href="#formBlock">Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container desktopMenu">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <ul class="headerMenu">
+                        <li><a data-i18n="menu.about" href="#aboutBlock">About</a></li>
+                        <li><a data-i18n="menu.features" href="#featuresBlock">Features</a></li>
+                        <li><a data-i18n="menu.services" href="#servicesBlock">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h1 class="brandName">Aurevex</h1>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <ul class="headerMenu right-nav">
+                        <li><a data-i18n="menu.cases" href="#portfolioBlock">Cases</a></li>
+                        <li><a data-i18n="menu.prices" href="#pricesBlock">Prices</a></li>
+                        <li><a data-i18n="menu.form" href="#formBlock">Form</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="language-switcher">
+                        <button class="lang-btn" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="ru">RU</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="introBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="introContentWrp">
+                            <h1 data-i18n="intro.title" data-i18n-html="true"></h1>
+                            <div class="paragraphWrp">
+                                <p data-i18n="intro.text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featuresBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <h2 data-i18n="features.title" id="featuresBlock">Features</h2>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="featuresWrp">
+                            <div class="featureCard">
+                                <div class="featureWrp">
+                                    <img src="images/icons/growth.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="features.cards.0.title">Conversion-Focused Websites</h3>
+                                </div>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="features.cards.0.text">Websites engineered to convert visitors into clients — built with strategy, UX psychology and automation at their core.</p>
+                                </div>
+                            </div>
+                            <div class="featureCard">
+                                <div class="featureWrp">
+                                    <img src="images/icons/chat-bot.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="features.cards.1.title">AI Assistants That Work for You</h3>
+                                </div>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="features.cards.1.text">Custom AI chat systems that engage, qualify, and support users directly on your website — turning passive traffic into live conversations.</p>
+                                </div>
+                            </div>
+                            <div class="featureCard">
+                                <div class="featureWrp">
+                                    <img src="images/icons/automation.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="features.cards.2.title">Automations That Save Hours</h3>
+                                </div>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="features.cards.2.text">Behind-the-scenes automation connecting your forms, CRM, and tools, so leads are handled instantly without human delay.</p>
+                                </div>
+                            </div>
+                            <div class="featureCard">
+                                <div class="featureWrp">
+                                    <img src="images/icons/integrations-light.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="features.cards.3.title">Seamless Integration & Scalability</h3>
+                                </div>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="features.cards.3.text">All systems — web and AI — are designed to grow with your business and plug into your existing tech stack effortlessly.</p>
+                                </div>
+                            </div>
+                            <div class="featureCard">
+                                <div class="featureWrp">
+                                    <img src="images/icons/analytics-board-graph-line.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="features.cards.4.title">Data-Driven Optimization</h3>
+                                </div>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="features.cards.4.text">Every click, message, and conversion is tracked and analyzed — giving you clear visibility into ROI and performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <h2 data-i18n="about.title" id="aboutBlock">About us</h2>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="paragraphWrp">
+                            <p data-i18n="about.text.0"><span>At</span> Aurevex, we build conversion-focused websites and AI systems that replace repetitive work with automated efficiency. Our team blends technical engineering with marketing logic - every pixel and process designed to drive measurable growth. We bring together web engineering, design, marketing and automation expertise to create measurable results.</p>
+                            <p data-i18n="about.text.1"><span>Every</span> project starts with understanding your business inside out, so what we build aligns with your goals, not generic templates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicesBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <h2 data-i18n="services.title" id="servicesBlock">What we do</h2>
+                    </div>
+                    <div class="col-12 col-lg-12">
+                        <div class="carouselWrp">
+                            <div class="carouselTrack">
+                                <div class="carousel">
+                                    <img src="images/icons/web-service.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="services.cards.0.title">Website Development</h3>
+                                    <p data-i18n="services.cards.0.text">We build fast, responsive, and conversion-focused websites that reflect your brand and drive measurable results. Every site is optimized for performance, clarity, and lead generation.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/design-service.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="services.cards.1.title">UI Design</h3>
+                                    <p data-i18n="services.cards.1.text">Clean, modern interfaces built around real user behavior. Our design process focuses on clarity, consistency, and the emotional tone that keeps users engaged.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/ai-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.2.title">AI Automation</h3>
+                                    <p data-i18n="services.cards.2.text">We identify repetitive processes in your business and replace them with automated workflows powered by AI. Less manual work, faster results, and higher consistency. No more hires for routine tasks. Just systems that work 24/7, 365 days a year.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/bot-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.3.title">Chatbots</h3>
+                                    <p data-i18n="services.cards.3.text">Smart, on-brand chatbots that handle inquiries, collect leads, and save your team hours daily. Integrated seamlessly into your site or messaging platforms.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/data-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.4.title">Marketing & SEO</h3>
+                                    <p data-i18n="services.cards.4.text">We help your website get seen — through data-driven SEO, content strategy, and simple, repeatable systems to attract qualified visitors without wasting budget.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/psychology-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.5.title">Psychology & UX Strategy</h3>
+                                    <p data-i18n="services.cards.5.text">Every design and word on your site is crafted to influence attention, trust, and decision-making. We apply behavioral psychology and UX patterns that turn visitors into customers.</p>
+                                </div>   
+                                
+                                <div class="carousel">
+                                    <img src="images/icons/web-service.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="services.cards.0.title">Website Development</h3>
+                                    <p data-i18n="services.cards.0.text">We build fast, responsive, and conversion-focused websites that reflect your brand and drive measurable results. Every site is optimized for performance, clarity, and lead generation.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/design-service.svg" class="imgFluid" alt="">
+                                    <h3 data-i18n="services.cards.1.title">UI Design</h3>
+                                    <p data-i18n="services.cards.1.text">Clean, modern interfaces built around real user behavior. Our design process focuses on clarity, consistency, and the emotional tone that keeps users engaged.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/ai-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.2.title">AI Automation</h3>
+                                    <p data-i18n="services.cards.2.text">We identify repetitive processes in your business and replace them with automated workflows powered by AI. Less manual work, faster results, and higher consistency. No more hires for routine tasks. Just systems that work 24/7, 365 days a year.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/bot-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.3.title">Chatbots</h3>
+                                    <p data-i18n="services.cards.3.text">Smart, on-brand chatbots that handle inquiries, collect leads, and save your team hours daily. Integrated seamlessly into your site or messaging platforms.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/data-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.4.title">Marketing & SEO</h3>
+                                    <p data-i18n="services.cards.4.text">We help your website get seen — through data-driven SEO, content strategy, and simple, repeatable systems to attract qualified visitors without wasting budget.</p>
+                                </div>
+                                <div class="carousel">
+                                    <img src="images/icons/psychology-service.svg" class="imgFluid"  alt="">
+                                    <h3 data-i18n="services.cards.5.title">Psychology & UX Strategy</h3>
+                                    <p data-i18n="services.cards.5.text">Every design and word on your site is crafted to influence attention, trust, and decision-making. We apply behavioral psychology and UX patterns that turn visitors into customers.</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricesBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <h2 data-i18n="prices.title" id="pricesBlock">Prices</h2>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="cardWrp">
+                            <div class="cardInfo">
+                                <h3 data-i18n="prices.cards.0.title" class="cardTitle">Website Development</h3>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="prices.cards.0.desc" class="cardDesc">
+                                        Landing page or multi-page website (up to 5 pages). Responsive layout, basic SEO setup, contact forms, and hosting connection.
+                                    </p>
+                                </div>
+                                <ul class="features">
+                                    <li><div data-i18n="prices.cards.0.features.0" class="paragraphWrp">Custom design + responsive layout</div></li>
+                                    <li><div data-i18n="prices.cards.0.features.1" class="paragraphWrp">Contact forms / Telegram / Email integration</div></li>
+                                    <li><div data-i18n="prices.cards.0.features.2" class="paragraphWrp">Basic SEO optimization & fast loading</div></li>
+                                </ul>
+                                <div class="prices">
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Landing Page</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.0.prices.landingPage" class="value">$300–$480</span>
+                                    </div>
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Multi-page Website</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.0.prices.multiPageWebsite" class="value">$500–$750</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="callToActionWrp">
+                                <a data-i18n="prices.cards.0.cta" class="cta" href="#feedbackBlock" data-service="website">Request quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="cardWrp">
+                            <div class="cardInfo">
+                                <h3 data-i18n="prices.cards.1.title" class="cardTitle">Chatbot</h3>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="prices.cards.1.desc" class="cardDesc">
+                                        Custom chatbot for Telegram, WhatsApp, or Instagram to automate client communication and lead collection.
+                                    </p>    
+                                </div>
+                                <ul class="features">
+                                    <li><div data-i18n="prices.cards.1.features.0" class="paragraphWrp">Main menu + auto-responses</div></li>
+                                    <li><div data-i18n="prices.cards.1.features.1" class="paragraphWrp">Basic conversation logic</div></li>
+                                    <li><div data-i18n="prices.cards.1.features.2" class="paragraphWrp">Integration with Google Sheets / Notion</div></li>
+                                </ul>
+                                <div class="prices">
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Basic Bot</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.1.prices.basicBot" class="value">$220–$320</span>
+                                    </div>
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Advanced Bot</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.1.prices.advancedBot" class="value">$340–$500</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="callToActionWrp">
+                                <a data-i18n="prices.cards.1.cta" class="cta" href="#feedbackBlock" data-service="chatbot">Request quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="cardWrp">
+                            <div class="cardInfo">
+                                <h3 data-i18n="prices.cards.2.title" class="cardTitle">Automation</h3>
+                                <div class="paragraphWrp">
+                                    <p data-i18n="prices.cards.2.desc" class="cardDesc">
+                                        Save time and reduce manual work with AI-powered automations for your business. We connect tools like Make, Zapier, or n8n.
+                                    </p>  
+                                </div>
+                                <ul class="features">
+                                    <li><div data-i18n="prices.cards.2.features.0" class="paragraphWrp">Process analysis and mapping</div></li>
+                                    <li><div data-i18n="prices.cards.2.features.1" class="paragraphWrp">1–5 automation scenarios setup</div></li>
+                                    <li><div data-i18n="prices.cards.2.features.2" class="paragraphWrp">Integration with CRM / Google Sheets / Telegram</div></li>
+                                </ul>
+                                <div class="prices">
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Basic Automation</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.2.prices.basicAutomation" class="value">$300–$400</span>
+                                    </div>
+                                    <div class="priceWrp">
+                                        <div class="paragraphWrp">
+                                            <span class="label">Advanced Automation</span>
+                                        </div>
+                                        <span data-i18n="prices.cards.2.prices.advancedAutomation" class="value">$450–$650</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="callToActionWrp">
+                                <a data-i18n="prices.cards.2.cta" class="cta" href="#feedbackBlock" data-service="automation">Request quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="paragraphWrp">
+                            <p data-i18n="prices.note" class="note">*Final pricing may vary depending on project complexity. Get a free quote within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolioBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <h2 data-i18n="portfolio.title" id="portfolioBlock">Our works</h2>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolioWrp">
+                            <a href="https://erik.qoobeo.ru" target="_blank">
+                                <img src="images/portfolio/healthyMeal.png" class="imgFluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolioWrp">
+                            <a href="https://ericpaytyan.github.io/VasserPro/index.html" target="_blank">
+                                <img src="images/portfolio/vasserpro.png" class="imgFluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolioWrp">
+                            <a href="https://ericpaytyan.github.io/AirPods3/" target="_blank">
+                                <img src="images/portfolio/airPods.png" class="imgFluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolioWrp">
+                            <a href="https://ericpaytyan.github.io/AsperaTech/" target="_blank">
+                                <img src="images/portfolio/asperaTech.png" class="imgFluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-12">
+                        <p data-i18n="portfolio.note" class="portfolioDescription">Many more cases are coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedbackBlock" id="feedbackBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <div class="sectionTitleWrp">
+                            <h2 data-i18n="feedback.title" id="formBlock">Feedback</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="formWrp">
+                            <form id="contactForm" action="https://formsubmit.co/paytyaneric@gmail.com" method="POST">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                                <input type="hidden" name="_captcha" value="false">
+                                
+                                <label data-i18n="feedback.form.fullName" for="fullName">Your full name:</label>
+                                <input class="formInput" type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                                
+                                <label data-i18n="feedback.form.email" for="email">Your email:</label>
+                                <input class="formInput" type="email" id="email" name="email" placeholder="your@email.com" required>
+                                
+                                <label data-i18n="feedback.form.phone" for="phone">Phone number (WhatsApp/Call) or Telegram link:</label>
+                                <input class="formInput" type="text" id="phone" name="phone" placeholder="+123456789 or t.me/username">
+                                
+                                <label data-i18n="feedback.form.message" for="message">Your message:</label>
+                                <textarea class="formInput" name="message" id="message" placeholder="Write your message..." required></textarea>
+                                
+                                <button data-i18n="feedback.form.submit" class="submitBtn" type="submit">Submit</button>
+
+                                <p data-i18n="feedback.form.statusMessage" id="statusMessage" style="display: none; color: green;">Message has been sent!</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2>Aurevex</h2>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="footerWrp">
+                        <a href="#headerBlock" class="linkToTop">
+                            <img src="images/icons/toparrow.svg" class="imgFluid">
+                            <p data-i18n="footer.backToTop">Back to top</p>
+                        </a>
+                        <div class="socialNetworks">
+                            <a href="https://www.instagram.com/erikkpaytyan?igsh=YWtieWZ3amd5M3c5&utm_source=ig_contact_invite"  target="_blank">
+                                <img src="images/icons/instagram.svg" class="imgFluid" alt="instagram">
+                            </a>
+                            <a href="mailto:paytyaneric@gmail.com"  target="_blank">
+                                <img src="images/icons/gmail.svg" class="imgFluid" alt="gmail">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="copyright">Copyright © <span id="currentYear"></span> Aurevex Labs</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.3/dist/umd/i18nextHttpBackend.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
