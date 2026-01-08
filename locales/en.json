@@ -1,0 +1,149 @@
+{
+    "menu": {
+        "about": "About",
+        "features": "Features",
+        "services": "Services",
+        "cases": "Cases",
+        "prices": "Prices",
+        "form": "Form"
+    },
+    "dropdownMenu": {
+        "about": "About",
+        "features": "Features",
+        "services": "Services",
+        "cases": "Cases",
+        "prices": "Prices",
+        "form": "Form"
+    },
+    "intro": {
+        "title": "Web & ai <br> automation <br> agency",
+        "text": "Most websites just exist. Ours perform. We build conversion-driven websites and AI automations that turn click into clients - and routine work into revenue. Growth built on data, not guesses."
+    },
+    "features": {
+        "title": "Features",
+        "cards": [
+            {
+                "title": "Conversion-Focused Websites",
+                "text": "Websites engineered to convert visitors into clients — built with strategy, UX psychology and automation at their core."
+            },
+            {
+                "title": "AI Assistants That Work for You",
+                "text": "Custom AI chat systems that engage, qualify, and support users directly on your website — turning passive traffic into live conversations."
+            },
+            {
+                "title": "Automations That Save Hours",
+                "text": "Behind-the-scenes automation connecting your forms, CRM, and tools, so leads are handled instantly without human delay."
+            },
+            {
+                "title": "Seamless Integration & Scalability",
+                "text": "All systems — web and AI — are designed to grow with your business and plug into your existing tech stack effortlessly."
+            },
+            {
+                "title": "Data-Driven Optimization",
+                "text": "Every click, message, and conversion is tracked and analyzed — giving you clear visibility into ROI and performance."
+            }
+        ]
+    },
+    "about": {
+        "title": "About us",
+        "text": [
+            "At Aurevex, we build conversion-focused websites and AI systems that replace repetitive work with automated efficiency. Our team blends technical engineering with marketing logic - every pixel and process designed to drive measurable growth. We bring together web engineering, design, marketing and automation expertise to create measurable results.",
+            "Every project starts with understanding your business inside out, so what we build aligns with your goals, not generic templates."
+        ]
+    },
+    "services": {
+        "title": "What we do",
+        "cards": [
+            {
+                "title": "Website Development",
+                "text": "We build fast, responsive, and conversion-focused websites that reflect your brand and drive measurable results. Every site is optimized for performance, clarity, and lead generation."
+            },
+            {
+                "title": "UI Design",
+                "text": "Clean, modern interfaces built around real user behavior. Our design process focuses on clarity, consistency, and the emotional tone that keeps users engaged."
+            },
+            {
+                "title": "AI Automation",
+                "text": "We identify repetitive processes in your business and replace them with automated workflows powered by AI. Less manual work, faster results, and higher consistency. No more hires for routine tasks. Just systems that work 24/7, 365 days a year."
+            },
+            {
+                "title": "Chatbots",
+                "text": "Smart, on-brand chatbots that handle inquiries, collect leads, and save your team hours daily. Integrated seamlessly into your site or messaging platforms."
+            },
+            {
+                "title": "Marketing & SEO",
+                "text": "We help your website get seen — through data-driven SEO, content strategy, and simple, repeatable systems to attract qualified visitors without wasting budget."
+            },
+            {
+                "title": "Psychology & UX Strategy",
+                "text": "Every design and word on your site is crafted to influence attention, trust, and decision-making. We apply behavioral psychology and UX patterns that turn visitors into customers."
+            }
+        ]
+    },
+    "prices": {
+        "title": "Prices",
+        "cards": [
+            {
+                "title": "Website Development",
+                "desc": "Landing page or multi-page website (up to 5 pages). Responsive layout, basic SEO setup, contact forms, and hosting connection.",
+                "features": [
+                    "Custom design + responsive layout",
+                    "Contact forms / Telegram / Email integration",
+                    "Basic SEO optimization & fast loading"
+                ],
+                "prices": {
+                    "landingPage": "$300–$480",
+                    "multiPageWebsite": "$500–$750"
+                },
+                "cta": "Request quote"
+            },
+            {
+                "title": "Chatbot",
+                "desc": "Custom chatbot for Telegram, WhatsApp, or Instagram to automate client communication and lead collection.",
+                "features": [
+                    "Main menu + auto-responses",
+                    "Basic conversation logic",
+                    "Integration with Google Sheets / Notion"
+                ],
+                "prices": {
+                    "basicBot": "$220–$320",
+                    "advancedBot": "$340–$500"
+                },
+                "cta": "Request quote"
+            },
+            {
+                "title": "Automation",
+                "desc": "Save time and reduce manual work with AI-powered automations for your business. We connect tools like Make, Zapier, or n8n.",
+                "features": [
+                    "Process analysis and mapping",
+                    "1–5 automation scenarios setup",
+                    "Integration with CRM / Google Sheets / Telegram"
+                ],
+                "prices": {
+                    "basicAutomation": "$300–$400",
+                    "advancedAutomation": "$450–$650"
+                },
+                "cta": "Request quote"
+            }
+        ],
+        "note": "*Final pricing may vary depending on project complexity. Get a free quote within 24 hours."
+    },
+    "portfolio": {
+        "title": "Our works",
+        "note": "Many more cases are coming soon!"
+    },
+    "feedback": {
+        "title": "Feedback",
+        "form": {
+            "fullName": "Your full name:",
+            "email": "Your email:",
+            "phone": "Phone number (WhatsApp/Call) or Telegram link:",
+            "message": "Your message:",
+            "submit": "Submit",
+            "statusMessage": "Message has been sent!"
+        }
+    },
+    "footer": {
+        "backToTop": "Back to top"
+    }
+}
